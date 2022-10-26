@@ -1684,9 +1684,6 @@
     .calendar_item {
         border: none;
     }
-
-  
-
     .calendar_item-day-mob {
         text-align: center;
     }
@@ -1714,6 +1711,29 @@
         height: 25px;
     }
 
+
+
+    /* webinar4.html */
+    .webinar-test_top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .webinar-test_left {
+        margin-bottom: 15px;
+    }
+    .webinar-test {
+        padding: 20px;
+    }
+    .webinar a.page_title {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+
+    /* webinar5.html */
+    .webinar-test_wrapper {
+        padding: 70px 20px;
+    }
 
 
 

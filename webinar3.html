@@ -28,7 +28,7 @@
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
 
 		<!-- Подключение файлов стилей -->
 		<link rel="stylesheet" href="css/nice-select.css">
@@ -343,6 +343,7 @@
 								<div class="calendar_items">
 									<div class="calendar_item">
 										<div class="calendar_item-day">ПОНЕДЕЛЬНИК</div>
+										<div class="calendar_item-day-mob">П</div>
 										<div class="calendar_item-date">1</div>	
 										<div class="calendar_item-info">
 											<div class="calendar_item-info-name">Вебинар по продажам</div>
@@ -352,6 +353,7 @@
 									</div>
 									<div class="calendar_item">
 										<div class="calendar_item-day">ВТОРНИК</div>
+										<div class="calendar_item-day-mob">В</div>
 										<div class="calendar_item-date">2</div>	
 										<div class="calendar_item-info">
 											<div class="calendar_item-info-name">Вебинар по продажам</div>
@@ -361,22 +363,27 @@
 									</div>
 									<div class="calendar_item">
 										<div class="calendar_item-day">СРЕДА</div>
+										<div class="calendar_item-day-mob">С</div>
 										<div class="calendar_item-date">3</div>	
 									</div>
 									<div class="calendar_item">
 										<div class="calendar_item-day">ЧЕТВЕРГ</div>
+										<div class="calendar_item-day-mob">Ч</div>
 										<div class="calendar_item-date">4</div>	
 									</div>
 									<div class="calendar_item">
 										<div class="calendar_item-day">ПЯТНИЦА</div>
+										<div class="calendar_item-day-mob">П</div>
 										<div class="calendar_item-date">5</div>	
 									</div>
 									<div class="calendar_item">
 										<div class="calendar_item-day">СУББОТА</div>
+										<div class="calendar_item-day-mob">С</div>
 										<div class="calendar_item-date">6</div>	
 									</div>
 									<div class="calendar_item">
 										<div class="calendar_item-day">ВОСКРЕСЕНЬЕ</div>
+										<div class="calendar_item-day-mob">В</div>
 										<div class="calendar_item-date">7</div>	
 									</div>
 									<div class="calendar_item">
@@ -393,22 +400,65 @@
 											<div class="calendar_item-info-text">Ждем вас в zoom! С собой тетрадки и ручки!Еще какой то текст который сокращается... </div>
 										</div>		
 									</div>
-									<div class="calendar_item">
+									<div class="calendar_item modal_cont">
 										<div class="calendar_item-date">11</div>
 										
 										<a href="#" class="mini_modal_btn calendar_item-more" data-modal-id="#webinar-modal">
 											<span>и еще 5</span>
 										</a>
 										<div class="mini_modal" id="webinar-modal">
-											<div class="webinar-modal_title">15 мая 2022</div>
+											<div class="webinar-modal_head">
+												<div class="webinar-modal_title">15 мая 2022</div>
+												<button>
+													<svg class="icon"><use xlink:href="images/sprite.svg#close"></use></svg>
+												</button>													
+											</div>
+											
 											<div class="webinar-modal_items">
-												<a href="#" class="webinar-modal_item modal_btn" data-content="#video_modal">
-													<div class="webinar-modal_item-title">Как полюбить работу</div>
-													<div class="webinar-modal_item-text">Ждем вас в zoom! С собой тетрадки и ручки!</div>
+												<div class="webinar-modal_item">
+													<div class="webinar-modal_item-box">
+														<div class="webinar-modal_item-title">Как полюбить работу можно</div>
+														<div class="webinar-modal_item-text">Ждем вас в zoom! С собой тетрадки и ручки!</div>	
+													</div>													
 													<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
-												</a>
+												</div>
+												<div class="webinar-modal_item">
+													<div class="webinar-modal_item-box">
+														<div class="webinar-modal_item-title">Как полюбить работу можно</div>
+														<div class="webinar-modal_item-text">Ждем вас в zoom! С собой тетрадки и ручки!</div>	
+													</div>													
+													<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
+												</div>
+												<div class="webinar-modal_item">
+													<div class="webinar-modal_item-box">
+														<div class="webinar-modal_item-title">Как полюбить работу можно</div>
+														<div class="webinar-modal_item-text">Ждем вас в zoom! С собой тетрадки и ручки!</div>	
+													</div>													
+													<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
+												</div>
+												<div class="webinar-modal_item">
+													<div class="webinar-modal_item-box">
+														<div class="webinar-modal_item-title">Как полюбить работу можно</div>
+														<div class="webinar-modal_item-text">Ждем вас в zoom! С собой тетрадки и ручки!</div>	
+													</div>													
+													<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
+												</div>
+												<div class="webinar-modal_item">
+													<div class="webinar-modal_item-box">
+														<div class="webinar-modal_item-title">Как полюбить работу можно</div>
+														<div class="webinar-modal_item-text">Ждем вас в zoom! С собой тетрадки и ручки!</div>	
+													</div>													
+													<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
+												</div>
 											</div>											
 										</div>
+
+										<a href="#" class="modal_btn calendar_modal-mob" data-content="#calendar_modal-mob">
+											<span></span>
+										</a>
+
+
+
 										<div class="calendar_item-links">
 											<a href="#" class="modal_btn" data-content="#video_modal">
 												<span>Как полюбить работу</span>
@@ -436,6 +486,20 @@
 									</div>
 									<div class="calendar_item">
 										<div class="calendar_item-date">14</div>	
+										<div class="calendar_item-links">
+											<a href="#" class="modal_btn" data-content="#video_modal">
+												<span>Вебинар по продажам</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
+											</a>
+											<a href="#" class="modal_btn" data-content="#video_modal">
+												<span>Вебинар по продажам</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
+											</a>
+											<a href="#" class="modal_btn" data-content="#video_modal">
+												<span>Вебинар по продажам</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
+											</a>
+										</div>	
 									</div>
 									<div class="calendar_item">
 										<div class="calendar_item-date">15</div>	
@@ -533,17 +597,39 @@
 
 
 
-		<!-- <section class="modal webinar-modal mini_modal" id="webinar-modal">
-			<div class="webinar-modal_title">15 мая 2022</div>
+		<section class="modal-calendar" id="calendar_modal-mob">			
+			<div class="calendar-modal_title">15 мая 2022</div>											
 			<div class="webinar-modal_items">
-				<a href="#" class="webinar-modal_item modal_btn" data-content="#video_modal">
-					<div class="webinar-modal_item-title">Как полюбить работу</div>
-					<div class="webinar-modal_item-text">Ждем вас в zoom! С собой тетрадки и ручки!</div>
-					<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
-				</a>
-			</div>
-			
-		</section> -->
+				<div class="webinar-modal_item">
+					<div class="webinar-modal_item-box">
+						<div class="webinar-modal_item-title">Вебинар по продажам</div>
+						<div class="webinar-modal_item-text">в 12:00</div>	
+					</div>													
+					<svg class="icon"><use xlink:href="images/sprite.svg#arrow6"></use></svg>
+				</div>	
+				<div class="webinar-modal_item error">
+					<div class="webinar-modal_item-box">
+						<div class="webinar-modal_item-title">Вебинар по продажам</div>
+						<div class="webinar-modal_item-text">в 12:00</div>	
+					</div>													
+					<svg class="icon"><use xlink:href="images/sprite.svg#arrow7"></use></svg>
+				</div>	
+				<div class="webinar-modal_item">
+					<div class="webinar-modal_item-box">
+						<div class="webinar-modal_item-title">Вебинар по продажам</div>
+						<div class="webinar-modal_item-text">в 12:00</div>	
+					</div>													
+					<svg class="icon"><use xlink:href="images/sprite.svg#arrow6"></use></svg>
+				</div>	
+				<div class="webinar-modal_item">
+					<div class="webinar-modal_item-box">
+						<div class="webinar-modal_item-title">Вебинар по продажам</div>
+						<div class="webinar-modal_item-text">в 12:00</div>	
+					</div>													
+					<svg class="icon"><use xlink:href="images/sprite.svg#arrow6"></use></svg>
+				</div>				
+			</div>	
+		</section>
 
 
 		<section class="modal modal-video" id="video_modal">

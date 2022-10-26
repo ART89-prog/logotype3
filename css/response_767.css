@@ -1625,6 +1625,15 @@
     .calendar_item-day {
         display: none;
     }
+    .calendar_item-day-mob {
+        display: block;
+        padding: 9px;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 24px;
+        color: #19181A;
+    }
     .modal-video_title {
         margin-top: 20px;
         margin-bottom: 15px;
@@ -1636,6 +1645,73 @@
     }
     .modal-video_link {
         margin: 15px auto 20px;
+    }
+    .calendar_item-info {
+        display: none;
+    }
+    .calendar_item {
+        height: auto;
+    }
+    .calendar_item:nth-child(1), 
+    .calendar_item:nth-child(2), 
+    .calendar_item:nth-child(3), 
+    .calendar_item:nth-child(4), 
+    .calendar_item:nth-child(5), 
+    .calendar_item:nth-child(6), 
+    .calendar_item:nth-child(7) {
+        height: auto;
+    }
+    .calendar_item-links {
+        display: none;
+    }
+    .calendar_item-day,
+    .calendar_item:nth-child(25),
+    .calendar_item:nth-child(26),
+    .calendar_item:nth-child(27),
+    .calendar_item:nth-child(28),
+    .calendar_item:nth-child(29),
+    .calendar_item:nth-child(30),
+    .calendar_item:nth-child(31) {
+        border-bottom: none;
+    }
+    .calendar_item:nth-child(7), 
+    .calendar_item:nth-child(14), 
+    .calendar_item:nth-child(21), 
+    .calendar_item:nth-child(28), 
+    .calendar_item:nth-child(31) {
+        border-right: none;
+    }
+    .calendar_item {
+        border: none;
+    }
+
+  
+
+    .calendar_item-day-mob {
+        text-align: center;
+    }
+    .calendar_item {
+        text-align: center;
+    }
+    .calendar_item:hover .calendar_item-date {
+        color: #0701BF;        
+    }
+    .calendar_item:hover .calendar_item-date::before {
+        background: none;
+    }
+    .calendar .mini_modal_btn {
+        display: none;
+    }
+    .calendar .mini_modal {
+        display: none;
+    }
+    .calendar_modal-mob span {
+        display: block;
+    }
+    .modal-calendar.fancybox__content > .carousel__button.is-close {
+        color: #D6D6D6;
+        width: 25px;
+        height: 25px;
     }
 
 

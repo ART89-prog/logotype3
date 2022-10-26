@@ -26,6 +26,10 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
 		<!-- Подключение файлов стилей -->
 		<link rel="stylesheet" href="css/nice-select.css">
 		<link rel="stylesheet" href="css/fancybox.css" async>
@@ -52,7 +56,6 @@
 							<span>Открыть</span>
 							<svg class="icon"><use xlink:href="images/sprite.svg#link-arrow"></use></svg>
 						</a>
-
 					</div>
 				</div>
 				<header>
@@ -310,91 +313,182 @@
 
 
 						<section class="content">
-							<section class="rating">
-								<div class="greeting_wrap block2">									
-									<div class="greeting_left">
-										<div class="greeting_icon">
-											<img src="images/morning.svg" alt="">
-										</div>
-										<div class="greeting_info">
-											<div class="greeting_info-title">Доброе утро, Бородин Евгений Сергеевич!</div>
-											<div class="greeting_info-text">Пусть сегодня у вас все получится!</div>											
+							<h1 class="page_title">
+								Вебинары
+								<div class="webinar-tooltip_btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#tooltip2"></use></svg>
+									<div class="webinar-tooltip_block">В мае этого года Nextjs неожиданно выпустил в своём блоге RFC (request for comments). В нём речь идёт, в первую очередь, о новой абстракции — layouts, а также о множестве связанных изменений, нацеленных на ускорение, улучшение DX</div>							
+								</div>									
+							</h1>
+							<section class="calendar">
+								<div class="calendar_head">
+									<div class="calendar_head-left">
+										<div class="calendar_head-title">Май, 2022</div>
+										<div class="calendar_head-arrow">										
+											<button class="btn-prev">
+												<svg class="icon"><use xlink:href="images/sprite.svg#btn-prev"></use></svg>
+											</button>
+											<button class="btn-next">
+												<svg class="icon"><use xlink:href="images/sprite.svg#btn-next"></use></svg>
+											</button>
 										</div>	
-										<div class="greeting-label">Цех технологических поточных систем</div>																										
-									</div>	
-									<div class="greeting_status">
-										<div class="greeting_icon">
-											<img src="images/cat.png" alt="">
-										</div>
-										<div class="greeting_info">
-											<div class="greeting_info-title">Настроение: <span>Плохае</span></div>
-											<div class="greeting_info-text">Позанимайтесь, что бы ваш питомец перестал грустить</div>
-										</div>	
-									</div>
-								
-									
-									<div class="greeting_left-mob">
-										<div class="greeting_info">
-											<div class="greeting_icon">
-												<img src="images/morning.svg" alt="">
-											</div>
-											<div class="greeting_info-title">Василий, <br>доброе утро!</div>											
-										</div>
-										<div class="greeting_info-text">Пусть сегодня у вас все получится! Какие то мотивирующие фразы, десяток, которые меняются каждый день!</div>
-										<div class="greeting_left-label">Администратор</div>
-									</div>	
-																	
-								</div>	
-
-								<div class="weekly-statistics block2">
-									<div class="block_top">
-										<div class="block_top-info">
-											<div class="block_title">Статистика за неделю</div>
-											<div class="block_text">Ваша статистика за прошедшие 30  дней по сравнению с прошлым месяцем</div>	
-										</div>
-										<div class="select-right">
-											<span>Период:</span>
-											<select>
-												<option>Неделя</option>
-												<option>1 день</option>
-												<option>3 дня</option>
-												<option>5 дней</option>
-											</select>	
-										</div>													
+									</div>										
+									<div class="calendar_head-link">
+										<a href="#" class="active">Все (18)</a>
+										<a href="#">События (3)</a>
+										<a href="#">Дедлайны(15)</a>
 									</div>									
-									<div class="weekly-statistics_items">
-										<div class="weekly-statistics_item">
-											<div class="weekly-statistics_item-info">
-												<div class="weekly-statistics_item-title">Курсов пройдено</div>
-												<div class="weekly-statistics_item-text">43</div>	
-											</div>											
-											<div class="weekly-statistics_item-number">+15%</div>
-										</div>
-										<div class="weekly-statistics_item">
-											<div class="weekly-statistics_item-info">
-												<div class="weekly-statistics_item-title">Занятий с тренажером</div>
-												<div class="weekly-statistics_item-text">15</div>	
-											</div>											
-											<div class="weekly-statistics_item-number">+23%</div>
-										</div>
-										<div class="weekly-statistics_item">
-											<div class="weekly-statistics_item-info">
-												<div class="weekly-statistics_item-title">Занятий с симулятором</div>
-												<div class="weekly-statistics_item-text">175</div>	
-											</div>											
-											<div class="weekly-statistics_item-number red">-29%</div>
-										</div>
-										<div class="weekly-statistics_item">
-											<div class="weekly-statistics_item-info">
-												<div class="weekly-statistics_item-title">Тестов пройдено</div>
-												<div class="weekly-statistics_item-text">15</div>	
-											</div>											
-											<div class="weekly-statistics_item-number">+5%</div>
-										</div>
-									</div>
 								</div>
 
-
+								<div class="calendar_items">
+									<div class="calendar_item">
+										<div class="calendar_item-day">ПОНЕДЕЛЬНИК</div>
+										<div class="calendar_item-date">1</div>	
+										<div class="calendar_item-info">
+											<div class="calendar_item-info-name">Вебинар по продажам</div>
+											<div class="calendar_item-info-time">11 мая в 12:00</div>
+											<div class="calendar_item-info-text">Ждем вас в zoom! С собой тетрадки и ручки!Еще какой то текст который сокращается... </div>
+										</div>									
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-day">ВТОРНИК</div>
+										<div class="calendar_item-date">2</div>	
+										<div class="calendar_item-info">
+											<div class="calendar_item-info-name">Вебинар по продажам</div>
+											<div class="calendar_item-info-time">11 мая в 12:00</div>
+											<div class="calendar_item-info-text">Ждем вас в zoom! С собой тетрадки и ручки!Еще какой то текст который сокращается... </div>
+										</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-day">СРЕДА</div>
+										<div class="calendar_item-date">3</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-day">ЧЕТВЕРГ</div>
+										<div class="calendar_item-date">4</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-day">ПЯТНИЦА</div>
+										<div class="calendar_item-date">5</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-day">СУББОТА</div>
+										<div class="calendar_item-date">6</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-day">ВОСКРЕСЕНЬЕ</div>
+										<div class="calendar_item-date">7</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">8</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">9</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">10</div>
+										<div class="calendar_item-info">
+											<div class="calendar_item-info-name">Вебинар по продажам</div>
+											<div class="calendar_item-info-time">11 мая в 12:00</div>
+											<div class="calendar_item-info-text">Ждем вас в zoom! С собой тетрадки и ручки!Еще какой то текст который сокращается... </div>
+										</div>		
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">11</div>
+										
+										<a href="#" class="mini_modal_btn calendar_item-more" data-modal-id="#webinar-modal">
+											<span>и еще 5</span>
+										</a>
+										<div class="mini_modal" id="webinar-modal">
+											<div class="webinar-modal_title">15 мая 2022</div>
+											<div class="webinar-modal_items">
+												<a href="#" class="webinar-modal_item modal_btn" data-content="#video_modal">
+													<div class="webinar-modal_item-title">Как полюбить работу</div>
+													<div class="webinar-modal_item-text">Ждем вас в zoom! С собой тетрадки и ручки!</div>
+													<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
+												</a>
+											</div>											
+										</div>
+										<div class="calendar_item-links">
+											<a href="#" class="modal_btn" data-content="#video_modal">
+												<span>Как полюбить работу</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
+											</a>
+											<a href="#" class="modal_btn" data-content="#video_modal">
+												<span>Как полюбить работу</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
+											</a>
+											<a href="#" class="modal_btn" data-content="#video_modal">
+												<span>Как полюбить работу</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
+											</a>
+											<a href="#" class="modal_btn" data-content="#video_modal">
+												<span>Как полюбить работу</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
+											</a>
+										</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">12</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">13</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">14</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">15</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">16</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">17</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">18</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">19</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">20</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">21</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">22</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">23</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">24</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">25</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">26</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">27</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">28</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">29</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">30</div>	
+									</div>
+									<div class="calendar_item">
+										<div class="calendar_item-date">31</div>	
+									</div>
+								</div>
 							</section>
 
 
@@ -437,28 +531,34 @@
 		</div>
 
 
-		<section class="modal" id="test">
-			<img data-src="images/ic_warning.svg" alt="" class="icon lozad">
 
-			<div class="modal_title">Аттестация по теме “Маркетинг в IT-Сфере”</div>
 
-			<div class="modal_desc">Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок. Теперь никто не сможет обвинить вас в плагиате, ибо каждый текст Яндекс.Рефератов неповторим.</div>
-
-			<div class="btns">
-				<button class="close_btn btn">Позже</button>
-
-				<a href="">Начать</a>
+		<!-- <section class="modal webinar-modal mini_modal" id="webinar-modal">
+			<div class="webinar-modal_title">15 мая 2022</div>
+			<div class="webinar-modal_items">
+				<a href="#" class="webinar-modal_item modal_btn" data-content="#video_modal">
+					<div class="webinar-modal_item-title">Как полюбить работу</div>
+					<div class="webinar-modal_item-text">Ждем вас в zoom! С собой тетрадки и ручки!</div>
+					<svg class="icon"><use xlink:href="images/sprite.svg#arrow5"></use></svg>
+				</a>
 			</div>
-		</section>
+			
+		</section> -->
 
 
-		<section class="modal" id="video_modal">
-			<video class="video-player video_new" width="100%" controlsList="nodownload" controls crossorigin="anonymous">
+		<section class="modal modal-video" id="video_modal">
+			<div class="modal-video_title">Как пользоваться модулем</div>
+			<video class="video-player video_new" controlsList="nodownload" controls crossorigin="anonymous">
 			    <source src="https://thepaciellogroup.github.io/AT-browser-tests/video/ElephantsDream.mp4" type="video/mp4">
 			    <source src="https://thepaciellogroup.github.io/AT-browser-tests/video/ElephantsDream.webm" type="video/webm">
 			    <track src="https://thepaciellogroup.github.io/AT-browser-tests/video/subtitles-en.vtt" label="English subtitles" kind="captions" srclang="en" default></track>
 			</video>
+			<a href="#" class="modal-video_link">
+				<span>Далее</span>				
+			</a>
 		</section>
+
+
 
 
 		<div class="supports_error">

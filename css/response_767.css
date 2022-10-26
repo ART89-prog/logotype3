@@ -1602,6 +1602,43 @@
     }
 
 
+    /* webinar3.html */
+    .calendar {
+        padding: 17px 15px 25px;
+    }
+    .calendar_head {
+        flex-wrap: wrap;        
+    }
+    .calendar_head-link {
+        width: 100%;
+        margin-top: 32px;
+        margin-left: 0;
+    }
+    .calendar_head-left {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .calendar_head-title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .calendar_item-day {
+        display: none;
+    }
+    .modal-video_title {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .modal-video .video_new {
+        width: calc(100% - 30px);
+    }
+    .modal-video_link {
+        margin: 15px auto 20px;
+    }
+
+
 
 
 

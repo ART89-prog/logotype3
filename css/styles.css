@@ -15168,10 +15168,12 @@ background: #64C841;
     line-height: 14px;
     color: #0E9700;
     padding: 3px 10px;
-    width: 74px;
-    left: 853px;
     background: #C9FBC4;
     border-radius: 57px;
+}
+.line-top_planned .line-top_status {
+    background: #CFD8DC;
+    color: #607D8B;
 }
 .line-top_link {
     text-decoration: none;
@@ -15314,11 +15316,14 @@ background: #64C841;
 
 /* webinar3.html */
 .webinar-tooltip_btn {
-    width: 19px;
-    height: 19px;
     cursor: pointer;
     position: relative;
     margin-left: 7px;
+    margin-top: -10px;
+}
+.webinar-tooltip_btn .icon {
+    width: 19px !important;
+    height: 19px !important;
 }
 .webinar-tooltip_block {
     display: none;
@@ -15734,6 +15739,7 @@ background: #64C841;
     padding: 21px 15px 23px;
     background: #FFFFFF;
     border-radius: 14px;
+    display: none;
 }
 .calendar-modal_title {
     font-weight: 500;

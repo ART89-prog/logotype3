@@ -1526,6 +1526,7 @@
     }
     .rating .block_title {
         max-width: 100%;
+        width: calc(100% - 138px);
     }
 
     .courses .row.not_slide > *

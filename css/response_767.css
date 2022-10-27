@@ -1706,11 +1706,7 @@
     .calendar_modal-mob span {
         display: block;
     }
-    .modal-calendar.fancybox__content > .carousel__button.is-close {
-        color: #D6D6D6;
-        width: 25px;
-        height: 25px;
-    }
+
 
 
 

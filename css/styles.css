@@ -15197,7 +15197,7 @@ background: #64C841;
     font-family: "Ubuntu";
 }
 .webinar .content {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #0A00C5;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), var(--main_color);
 }
 .greeting_wrap {
     display: flex;
@@ -15301,7 +15301,7 @@ background: #64C841;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #0A00C5;  
+    color: var(--main_color);
     display: flex;
     align-items: center;
     text-decoration: none;  
@@ -15502,14 +15502,14 @@ background: #64C841;
     width: 26px;
     height: 26px;
     border-radius: 50%;   
-    background: linear-gradient(135.48deg, #0B00D8 2%, #0500AF 96.5%); 
+    background: var(--main_color); 
 }
 .calendar_head-arrow .btn-next {
     position: relative;
     width: 26px;
     height: 26px;
     border-radius: 50%;    
-    background: linear-gradient(135.48deg, #0B00D8 2%, #0500AF 96.5%);
+    background: var(--main_color); 
 }
 .calendar_head-arrow .btn-prev .icon {
     position: absolute;
@@ -15519,6 +15519,7 @@ background: #64C841;
     z-index: 2;
     width: 11px;
     height: 10px;
+    fill: #fff;
 }
 .calendar_head-arrow .btn-next .icon {
     position: absolute;
@@ -15528,6 +15529,7 @@ background: #64C841;
     z-index: 2;
     width: 11px;
     height: 10px;
+    fill: #fff;
 }
 .calendar_head-link {
     margin-left: 27px;
@@ -15543,10 +15545,10 @@ background: #64C841;
     transition: all .4s;
 }
 .calendar_head-link a.active {
-    color: #0701BB;
+    color: var(--main_color);
 }
 .calendar_head-link a:hover {
-    color: #0701BB;
+    color: var(--main_color);
 }
 
 .calendar_item-links {
@@ -15577,6 +15579,7 @@ background: #64C841;
     width: 16px;
     height: 16px;
     margin-left: 7px;
+    fill: #fff;
 }
 .calendar_item-date {
     position: relative;
@@ -15584,7 +15587,7 @@ background: #64C841;
     z-index: 1;
 }
 .calendar_item:hover .calendar_item-date::before {
-    background: #0801C5;
+    background: var(--main_color);
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -15606,12 +15609,12 @@ background: #64C841;
     font-weight: 500;
     font-size: 10px;
     line-height: 11px;
-    color: #0801C5;
+    color: var(--main_color);
     text-decoration: none;
     transition: all .4s;
 }
 .calendar_item-more:hover {
-    border-bottom: 1px dashed #0801C5;
+    border-bottom: 1px dashed var(--main_color);
 }
 
 .modal-video {
@@ -15640,7 +15643,7 @@ background: #64C841;
     line-height: 36px;
     color: #FFFFFF;
     width: 140px;
-    background: #0A00C5;
+    background: var(--main_color);
     border-radius: 50px;
     text-decoration: none;
 }
@@ -15700,9 +15703,7 @@ background: #64C841;
     width: calc(100% - 22px);   
     text-align: start;
 }
-.webinar-modal_items .icon {
-    width: 16px;
-    height: 16px;
+.webinar-modal_item .icon {
     position: absolute;
     bottom: 5px;
     right: 5px;
@@ -15750,6 +15751,8 @@ background: #64C841;
 }
 .webinar-modal_item {
     margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
 }
 .webinar-modal_item:last-child {
     margin-bottom: 0;
@@ -15768,9 +15771,13 @@ background: #64C841;
     color: #67AB60; 
 }
 .webinar-modal_item .icon {
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+}
+.modal-calendar .webinar-modal_item .icon {
     width: 25px;
     height: 25px;
-    object-fit: cover;
 }
 .webinar-modal_item.error {
     background: #FFBDBD;
@@ -15795,7 +15802,7 @@ background: #64C841;
     font-size: 24px;
     line-height: 28px;
     letter-spacing: -1px;
-    color: #020027;
+    color: var(--color_title);
     margin-bottom: 34px;
 }
 .webinar a.page_title .icon {
@@ -15817,7 +15824,7 @@ background: #64C841;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #0A00C5;   
+    color: var(--main_color);   
     margin-bottom: 3px;
     display: flex;
     align-items: center;
@@ -15865,7 +15872,7 @@ background: #64C841;
     align-items: center;
     justify-content: center;
 }
-.webinar-test_wrapper-img {
+.webinar-test_wrapper .icon {
     margin-bottom: 26px;
     width: 99px;
     height: 99px;
@@ -15880,7 +15887,7 @@ background: #64C841;
 }
 .webinar-test_wrapper-link {
     text-decoration: none;
-    background: #0A00C5;
+    background: var(--main_color);
     border-radius: 50px;
     padding: 0 49px;
     font-weight: 400;
@@ -15928,7 +15935,7 @@ background: #64C841;
     margin-bottom: 4px;
 }
 .confirm-modal2_btn.close_btn  {
-    background: #0A00C5;
+    background: var(--main_color);
     border-radius: 50px;
     font-weight: 400;
     font-size: 14px;
